@@ -11,7 +11,8 @@ def nyc_pigeon_organizer(data)
         end
         if nyc_pigeons[name_of_pigeon][color_gender_lives]==nil
           nyc_pigeons[name_of_pigeon][color_gender_lives]=[]
-        end 
+        end
+        nyc_pigeons[name_of_pigeon][color_gender_lives]
       end
       binding.pry
     end
