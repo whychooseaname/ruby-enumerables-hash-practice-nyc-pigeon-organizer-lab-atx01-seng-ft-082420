@@ -2,12 +2,14 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here
-  nyc_pigeons=[]
+  nyc_pigeons={}
+  data.each do |color_gender_lives, value|
+  
   
 end
 
 #method nyc pigeon organizer (hash called data)
-# create a array with list of pigeons with their name
+# create an empty hash for list of pigeons with their name
   #iterate over the hash with color,gender, and lives, and the value of those keys
    #iterate over the values of the inner key, and the name values
     #iterate over the names of the pigeons with the value of the name
