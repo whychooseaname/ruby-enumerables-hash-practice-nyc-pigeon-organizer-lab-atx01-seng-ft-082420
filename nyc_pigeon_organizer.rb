@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(data)
         end
         if nyc_pigeons[name_of_pigeons][color_gender_lives]=nil
           nyc_pigeons[name_of_pigeons][color_gender_lives]={}
+        end
         
       end
     end
