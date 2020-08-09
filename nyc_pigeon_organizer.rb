@@ -7,7 +7,8 @@ def nyc_pigeon_organizer(data)
     value.each do |stats, names|
       names.each do |name_of_pigeons|
         if nyc_pigeons[name_of_pigeons]==nil 
-          nyc_pigeons << nyc_pigeons[name_of_pigeons]
+          nyc_pigeons[name_of_pigeons]={}
+          
         
       end
     end
