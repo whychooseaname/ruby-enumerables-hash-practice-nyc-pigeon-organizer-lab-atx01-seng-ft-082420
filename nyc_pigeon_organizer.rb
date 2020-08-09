@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
   data.each do |color_gender_lives, value|
     value.each do |stats, names|
       names.each do |name_of_pigeons|
-        if nyc_pigeons[name]==nil 
-          pigeon_list[name]={}
+        if nyc_pigeons[name_of_pigeons]==nil 
+          nyc_pigeons << nyc_pigeons[name_of_pigeons]
         
       end
     end
