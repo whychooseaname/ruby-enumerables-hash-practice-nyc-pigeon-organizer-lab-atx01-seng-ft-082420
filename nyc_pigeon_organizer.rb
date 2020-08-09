@@ -4,7 +4,13 @@ def nyc_pigeon_organizer(data)
   # write your code here
   nyc_pigeons={}
   data.each do |color_gender_lives, value|
-    value.each do |
+    value.each do |stats, names|
+      names.each do |name_of_pigeons|
+        if nyc_pigeons[name]==nil 
+          
+        
+      end
+    end
   end 
   
   
