@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     end
   end 
   
-  
+  nyc_pigeons
 end
 
 #method nyc pigeon organizer (hash called data)
